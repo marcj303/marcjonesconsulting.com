@@ -1,0 +1,140 @@
+/* Marc Jones Consulting CSS*/
+body {
+	font-family: 'Lato', Verdana, arial, helvetica, sans-serif;
+	color: #2A2A2A;
+	background: #D8D4CD url(bin_fade.png) repeat-x scroll 0 0;
+	font-size: 1.1rem;
+	line-height: 1.5em;
+}
+#wrapper {
+	width: 100%;
+	background-color:#F7F6F4;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid;
+	border-color:#FFFFFF #CAC6BF #B8B4AE #FFFFFF;
+}
+header {
+	text-align: center;
+	line-height: 5em;
+	background-color: #807A73;
+	padding: 3em 1em 3em 1em;
+	border: 1px solid #F59D00;
+	border-bottom-width: 0.3em;
+    margin-bottom: 0px;
+    font-family: 'Oswald', arial, helvetica, sans-serif;
+	color: white;
+	font-size: 1.1em;
+	text-align: center;
+	font-weight: 700;
+	text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.header_logo {
+	font-size: 2.5em;
+	padding-right: 50px;
+	color: #F59D00;
+}
+
+nav {
+	clear:both;
+	padding: 0px 10px 0px 10px;
+	background-color: #EFEDE9;
+	border: 1px solid #FFFFFF;
+	margin: 0px;
+	word-spacing: 10px;
+	text-align: center;
+	font-size: 1em;
+}
+
+section {
+	margin: 50px;
+	max-width: 1110px;
+}
+
+#main {
+	clear:both;
+	margin: 10px auto;
+	padding: 10px;
+	width: 80%;
+}
+#ohloh{
+	float: right;
+	width: 200px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 0.8em;
+	text-align: center;
+	margin: 20px; 
+}
+#core_logo{
+	float: right;
+	width: 140px;
+	height: 110px;
+	margin: 0px 10px 20px 10px;
+}
+section.sub_sec{
+	margin: 10px 10px 20px 10px;
+	padding: 5px 10px 20px 10px;
+	background-color: #EFEDE9;
+	border: 1px solid #FFFFFF;
+}
+.quote{
+	margin: 50px 50px 10px 50px;
+	padding: 10px;
+	border: 2px dotted #CAC6BF;
+	text-align: center;
+	font-style: italic;
+	font-family: 'Cardo', serif;
+}
+.end_quote{
+	text-align: right;
+	margin-right: 20px;
+	font-style: normal;
+	font-family: 'Lato', sans-serif;
+}
+.clear{clear: both;}
+footer {
+	border-top: 1px dashed #CAC6BF;
+	text-align: center;
+	font-size: 0.8em;
+	padding: 0.8em;
+	color: #9CAD9C;	
+}
+h1 {
+	font-family: 'Oswald', arial, helvetica, sans-serif;
+	color: white;
+	font-size: 2em;
+	text-align: center;
+	font-weight: 700;
+	text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+}
+h2 ,h3{
+	font-family: 'Oswald', arial, helvetica, sans-serif;
+	color: white;
+	background-color: #9CAD9C;
+	font-size: 1.5em;
+	padding: 0.2em;
+	padding-left: 1em;
+	border: 1px solid #807A73;
+	border-bottom-width: 0.3em;
+	text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+}
+p {
+	line-height: 1.5em;
+	padding: 0.5em;
+	padding-left: 1em;
+}
+img {
+	border-style: none;
+	border-width: .5em;
+}
+a {
+	text-decoration: none;
+	color: #D08300;
+}
+a:hover{
+	color: #9CAD9C;
+}
+ul.none{list-style-type:none}

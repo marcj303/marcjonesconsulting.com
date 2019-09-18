@@ -1,0 +1,50 @@
+/* Marc Jones Consulting Contact CSS*/
+ul.contact_form  {
+list-style:none;
+list-style-position:outside;
+border:0;
+margin:1em;
+padding:0;
+width:100%;
+}
+ul.contact_form  li {
+clear:both;
+float:left;
+line-height:1.5em;
+margin-bottom:1em;
+width:100%;
+}
+ul.contact_form  label {
+cursor:pointer;
+display:block;
+float:left;
+line-height:1.5em;
+text-align:right;
+width:15%;
+}
+ul.contact_form  input {
+width:30%;
+margin-left: 20px;
+}
+ul.contact_form  textarea {
+height:20em;
+width:60%;
+margin-left: 20px;
+}
+ul.contact_form  input, ul.contact_form  textarea, ul.contact_form  button {
+}
+ul.contact_form  li.button {
+padding-left:15%;
+width:30%;
+}
+.error {
+display:block;
+margin:1em;
+color: red;
+font-weight:bold;
+}
+.success {
+display:block;
+margin:1em;
+font-weight:bold;
+}
